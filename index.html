@@ -3,8 +3,75 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Reservia - Page d'accueil</title>
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+
     </head>
+
     <body>
-        
+    
+        <!-- Header -->
+        <header class="flex">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo de Reservia">
+            </div>
+
+
+            <!-- Navigation -->
+            <nav class="flex">
+                <ul class="flex">
+                    <li><a>Hébergements</a></li>
+                    <li><a class="a2">Activités</a></li>
+                    <li><a class="a3">S'inscrire</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Search section -->
+        <section class="search">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+
+            <div class="search_bar flex">
+                <div class="marp-marker_icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" class="search_input" placeholder="Marseille, France">
+                <a type="button" class="search_button">Rechercher</a>
+            </div>
+
+        <!-- Filters -->
+            <div class="filters flex">
+                <p>Filtres</p>
+                <div class="filters_option flex">
+                    <div class="filters_icon flex"><i class="fas fa-money-bill-wave"></i></div>
+                    Économique
+                </div>
+                <div class="filters_option flex">
+                    <div class="filters_icon flex"><i class="fas fa-child"></i></div>
+                    Familial
+                </div>
+                <div class="filters_option flex">
+                    <div class="filters_icon flex"><i class="fas fa-heart"></i></div>
+                    Romantique
+                    </div>
+                <div class="filters_option flex">
+                    <div class="filters_icon flex"><i class="fas fa-dog"></i></div>
+                    Animaux autorisés
+                </div>
+            </div>
+
+            <div class="info flex">
+                 <div class="info_icon flex">
+                    <i class="fas fa-info"></i>
+                </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+
+     
     </body>
 </html>
