@@ -107,19 +107,19 @@ nav a{
 
     .filters{
         margin-bottom:10px;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 13px;
+        height: 39px;
     }
 
         .filters p{
-            font-weight: 700;
             display: flex;
-            margin-right:25px;
+            margin-right:35px;
         }
 
         .filters_option{
-            margin: 0px 20px 0px 0px;
-            padding: 11px 15px 10px 40px;
+            margin: 0px 25px 0px 0px;
+            padding: 11px 20px 10px 45px;
             border: 1.5px solid lightgrey;
             border-radius: 2em;
         }
@@ -128,16 +128,170 @@ nav a{
             width: 12px;
             background-color: #DEEBFF;
             color:#0065FC;
-            margin: -12.1px 20px 0px -45px;
+            margin: -12.1px 20px 0px -50px;
             padding: 13px 13px 13px 13px;
             justify-content: center;
             position: absolute;
             border-radius: 2em;
         }
+    
+    .info{
+        margin: 15px 0px 15px 0px;
+    }
 
 
 
 /* All Housings (Housings + Popular) */
+
+.all_housings{
+    justify-content: space-between;
+}
+
+    /* Housings */
+    .housings{
+       width: 70%;
+       height: auto;
+       background-color: #F2F2F2;
+       padding: 10px 25px 10px 25px;
+       margin-right: 20px;
+       border-radius: 1em;
+
+    }
+
+	.housings a{
+		margin-top:10px;
+		font-weight: 700;
+		font-size: 14px;
+	}
+
+        .housings h2{
+            font-size: 14px;
+        }
+
+        .housings_allcards{
+            justify-content: space-between;
+            margin: 25px 0px 0px 0px;
+            flex-flow: row wrap;
+        }
+
+            .housings_card{
+                width: 30%;
+                height: 100%;
+                margin-bottom: 25px;
+                background-color: white;
+                padding: 3px;
+                border-radius: 1em;
+                box-shadow: 1px 1px 10px lightgrey;
+
+
+                flex-direction: column;
+            }
+
+            .housings_card_img{
+                height: 80px;
+                width: auto;
+            }
+
+            .housings_card img{
+                border-radius: 0.8em 0.8em 0 0;
+                max-width: 100%;
+                max-height: auto;
+                object-fit: cover;
+            }
+
+            .housings_card_description{
+                padding:5px 0px 5px 10px;
+                font-size: 11px;
+                flex-direction: column;
+                margin: 0px;
+            }
+
+                .housings_card_description h3{
+                    font-size: 11px;
+                    margin: 0px;
+                }
+
+                .housings_card_description p{
+                    font-size: 11px;
+                    margin: 3px 0px 0px 0px;
+                    font-weight: 100;
+                }
+
+                .stars{
+                    padding:0px 0px 5px 10px;
+                    font-size: 9px;
+                    margin: 0px;
+                    color: #0065FC;
+                }
+
+                    .greystar{
+                        color: lightgrey;
+                    }
+
+    /* Popular */                
+    .popular{
+        width: 30%;
+        height: auto;
+        background-color: #F2F2F2;
+        padding: 10px 20px 0px 20px;
+        border-radius: 1em;
+    }
+
+        .popular h2{
+            font-size: 14px;
+            display: flex;
+        }
+
+        .popular_title{
+            align-items: baseline;
+            justify-content: space-between;
+        }
+    
+    .popular_allcards{
+        margin: 15px 0px 0px 0px;
+        flex-direction: column;
+    }
+
+		.popular_card{
+			background-color: white;
+			padding: 3px;
+			border-radius: 1em;
+			box-shadow: 1px 1px 10px lightgrey;
+			margin-bottom:25px;
+		}
+
+		.popular_card_img{
+			height: 100px;
+			width: 70px;
+		}
+
+		.popular_card img{
+			border-radius: 0.8em 0em 0em 0.8em;
+			max-width: 70px;
+			object-fit: cover;
+		}
+
+		.popular_card_description{
+			padding: 5px 0px 5px 10px;
+			font-size: 11px;
+			margin: 0px;
+		}
+
+			.popular_card_description h3{
+				font-size: 11px;
+				margin: 0px;
+			}
+
+			.popular_card_description p{
+				font-size: 11px;
+				font-weight: 100;
+			}
+
+			.stars_popular{
+				font-size: 9px;
+				color: #0065FC;
+			}
+
 
 /* Housings */
 
