@@ -294,6 +294,10 @@ nav a{
 
 /* Activities */
 
+.Activities{
+	margin-bottom: 130px;
+}
+
 .Activities h2{
 	font-size: 14px;
 	margin-bottom: 20px;
@@ -352,5 +356,27 @@ nav a{
 	.card5 { grid-area: 1 / 4 / 5 / 5; text-decoration-line: none;} 
 	.card6 { grid-area: 5 / 4 / 11 / 5; text-decoration-line: none;} 
 
-
 /* Footer */
+
+footer{
+	background-color: #F2F2F2;
+	margin:-40px -30px 0px -35px;
+	padding:20px 50px 20px 50px;
+}
+
+footer div{
+	flex:1;
+}
+
+footer h3{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+footer a{
+	font-size:12px;
+	color: black;
+	text-decoration: none;
+	line-height: 25px;
+	font-weight: 300;
+}
