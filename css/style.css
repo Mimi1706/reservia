@@ -139,8 +139,8 @@ nav a{
 	width: 2px;
 	height: 2px;
 	padding: 3px 7px 11px 7px;
-	margin:10px 6px 0px 0px;
-	border: 1px solid #F2F2F2;
+	margin:14px 6px 0px 0px;
+	border: 1px solid lightgrey;
 	
 	color:#0065FC; 
 	font-size: 0.5em;
@@ -435,7 +435,6 @@ footer a{
         top:45px;
     }
     
-    
     /* Search - Phone Version */
     body{
         overflow-x: hidden;
@@ -480,7 +479,7 @@ footer a{
         flex-direction: column-reverse;
     }
 
-        /* Popular */
+        /* Popular - Phone Version */
         .popular{
             border-radius: 0;
             width: 90%;
@@ -493,7 +492,7 @@ footer a{
 			margin-bottom:15px;
 		    }
 
-        /* Housings */
+        /* Housings - Phone Version */
         .housings{
             background-color: white;
             width: 90%;
@@ -575,4 +574,162 @@ footer a{
         margin:25px 0 5px 0;
     }
 
+}
+
+/* Tablet Version */
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+    /* Header - Tablet Version */
+    .logo{
+        width: 100px;
+        margin-top:-15px;
+    }
+    
+    header{
+        flex-direction: column;
+    }
+    
+    nav {
+        color:#0065FC;
+        list-style-type: none;
+        flex-direction: column;
+    }
+
+    nav li{
+        width: 100%;
+        padding: 30px 0 10px 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    nav li:hover{
+        border-bottom-color:#0065FC;
+    }
+    
+        .a1{
+            padding:0;
+            justify-content: center;
+            font-size: 15px;
+        }
+
+        .a2{
+            color:grey;
+            padding:0;
+            justify-content: center;
+            font-size: 15px;
+        }
+
+    .a3{
+        font-weight: 700;
+        align-self: flex-end;
+        position:absolute;
+        top:45px;
+        font-size: 15px;
+    }
+
+   /* Search - Tablet Version */
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Search bar - Tablet Version */
+    .search_bar{
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .search_input{
+        width: 100%;
+    }
+
+    /* Filters - Tablet Version */
+    .filters{
+        flex-direction: column;
+    }
+
+    .filters_list{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    /* All Housings (housings+popular) - Tablet Version */
+    .all_housings{
+        flex-direction: column-reverse;
+    }
+
+    /* Popular - Tablet Version */
+    .popular{
+        border-radius: 0;
+        width: 93%;
+        margin-bottom:10px;
+        padding-bottom:20px;
+        border-radius: 1em;
+    }
+
+        .popular_card{
+        padding: 5px;
+        margin-bottom:15px;
+        }
+
+    /* Housings - Tablet Version */
+    .housings{
+        background-color: white;
+        width: 94%;
+        margin-bottom:-20px;
+    }
+    
+    /* Activities - Tablet Version */
+    #activitiesAnchor{
+        margin:0 0 30px 25px;
+    }
+
+    .activities_cards{
+        margin:0px 25px 0px 25px;
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        grid-column-gap: 10px;
+        grid-row-gap: 10px; 
+    }
+
+    .activities_card{
+        height:120px;
+        width: auto;
+        border-radius: 1em;
+        box-shadow: 1px 1px 10px lightgrey;
+        padding-bottom:5px;
+        margin-bottom:15px;
+        }
+        
+        .activities_cards h3{
+            font-size: 10px;
+            font-weight: 600;
+            margin: 5px 0 0 10px;
+            padding: 0;
+            color: black;
+        }
+    
+        .activities_card_img_l{
+            height: 80%;
+        }
+    
+        .activities_card_img_s{
+            height: 80%;
+        }
+    
+        .activities_card_img_xs{
+            height: 80%;
+        }
+
+        .card1 { grid-area: 1 / 1 / 2 / 2; } 
+        .card2 { grid-area: 1 / 2 / 2 / 3; } 
+        .card3 { grid-area: 1 / 3 / 2 / 4; } 
+        .card4 { grid-area: 2 / 1 / 3 / 2; } 
+        .card5 { grid-area: 2 / 2 / 3 / 3; } 
+        .card6 { grid-area: 2 / 3 / 3 / 4; } 
+    
+    /* Footer */
+    footer{
+        justify-content: space-between;
+        text-align: center;
+    }
+    
 }
