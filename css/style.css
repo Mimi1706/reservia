@@ -506,13 +506,25 @@ footer a{
         }
 
             .popular_title{
-                padding: 0 15px 0 15px;
+                padding: 0 0 0 20px;
             }
 
             .popular_card{
 			    padding: 5px;
 			    margin: 10px 15px 10px 15px;
 		    }
+
+                .popular_card_description h3{
+                    font-size: 0.8em;
+                }
+    
+                .popular_card_description p{
+                    font-size: 0.6em;
+                }
+    
+                .stars_popular{
+                    font-size: 0.5em;
+                }
 
         /* Housings - Phone Version */
         .housings{
@@ -528,7 +540,7 @@ footer a{
 
         .ShowMore{
             padding:0;
-            margin-left:20px;
+            margin-left:25px;
         }
 
             .housings_allcards{
@@ -700,6 +712,18 @@ footer a{
         .popular_card{
             padding: 5px;
             margin: 10px 25px 10px 25px;
+        }
+
+        .popular_card_description h3{
+            font-size: 0.9em;
+        }
+
+        .popular_card_description p{
+            font-size: 0.7em;
+        }
+
+        .stars_popular{
+            font-size: 0.6em;
         }
 
     /* Housings - Tablet Version */
