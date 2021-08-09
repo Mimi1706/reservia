@@ -510,7 +510,7 @@ footer a{
         }
 
             .popular_title{
-                padding: 0 0 0 20px;
+                padding: 0 20px 0 20px;
             }
 
             .popular_allcards{
@@ -694,6 +694,7 @@ footer a{
    /* Search - Tablet Version */
     body{
         overflow-x: hidden;
+        margin: 5% 5% 0 5%;
     }
 
     /* Search bar - Tablet Version */
@@ -779,17 +780,17 @@ footer a{
     }
 
     .activities_cards{
-        margin:0px 25px 0px 25px;
+        margin:0px 25px 100px 25px;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: repeat(2, 1fr); 
-        grid-column-gap: 20px;
+        grid-column-gap: 10px;
         grid-row-gap: 10px; 
         height: 17em;
     }
 
     .activities_card{
-        height:120px;
+        height:10em;
         width: auto;
         border-radius: 1em;
         box-shadow: 1px 1px 10px lightgrey;
