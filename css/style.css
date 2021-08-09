@@ -102,7 +102,7 @@ nav a{
     .filters{
         font-weight: 600;
         font-size: 13px;
-        flex-direction: row;
+        flex-flow: row wrap;
     }
 
         .filters_text{
@@ -116,6 +116,12 @@ nav a{
             border-radius: 2em;
             white-space:nowrap;
             height: fit-content;
+        }
+
+        .filters_option:hover{
+            border-color:#0065FC;
+            background-color: #0065FC;
+            color: white;
         }
 
         .filters_icon{
@@ -163,10 +169,12 @@ nav a{
        border-radius: 1em;
     }
 
-	.housings a{
+	.ShowMore{
 		font-weight: 700;
 		font-size: 13px;
 		padding: 0px 0px 0px 10px;
+        text-decoration: none;
+        color: inherit;
 	}
 
         .housings h2{
@@ -177,6 +185,11 @@ nav a{
             justify-content: space-between;
             margin: 25px 0px 0px 0px;
             flex-flow: row wrap;
+        }
+
+        .housings_allcards a{
+            text-decoration: none;
+            color: inherit;
         }
 
             .housings_card{
@@ -252,6 +265,11 @@ nav a{
     .popular_allcards{
         margin: 15px 0px 0px 0px;
         flex-direction: column;
+    }
+
+    .popular_allcards a{
+        text-decoration: none;
+        color: inherit;
     }
 
 		.popular_card{
@@ -384,7 +402,7 @@ footer a{
 }
 
 /* Phone Version */
-@media only screen and (max-width: 800px){
+@media (max-width: 700px){
 
     /* General - Phone Version */
 
@@ -508,7 +526,7 @@ footer a{
             margin: 10px 0 20px 20px;
         }
 
-        .housings a{
+        .ShowMore{
             padding:0;
             margin-left:20px;
         }
@@ -589,7 +607,7 @@ footer a{
 }
 
 /* Tablet Version */
-@media only screen and (min-width: 800px) and (max-width: 1000px){
+@media (min-width: 700px) and (max-width: 1000px){
     /* Header - Tablet Version */
     .logo{
         width: 100px;
