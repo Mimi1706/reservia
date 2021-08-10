@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Raleway';
-    margin:40px 5% 0px 5%;
+    margin:40px 4% 0px 4%;
     zoom:125%;
 }
 
@@ -832,6 +832,8 @@ footer a{
     footer{
         justify-content: space-between;
         text-align: center;
+        margin-right:-7%;
+        margin-left:-7%;
     }
     
 }
