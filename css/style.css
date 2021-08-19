@@ -494,6 +494,15 @@ footer a{
             width: 100%;
         }
 
+            .filters_option{
+                margin: 10px 15px 0px 0px;
+                padding: 11px 15px 10px 40px;
+            }
+
+            .filters_icon{
+                margin: -12.5px 20px 0px -45px;
+            }
+
     /* All Housings (housings+popular) - Phone Version */
     .all_housings{
         margin:0px -2px 0px -40px;
