@@ -408,6 +408,7 @@ footer a{
     body{
         margin-right: 9%;
         margin-left: 9%;
+        zoom: 80%;
     }
     /* Header - Phone Version */
     .logo{
@@ -652,6 +653,12 @@ footer a{
 /* Tablet Version */
 @media (min-width: 700px) and (max-width: 1000px){
     
+    body{
+        zoom:100%;
+        width:88%;
+        margin:40px 0px 0px 45px;
+    }
+
     /* Header - Tablet Version */
     .logo{
         width: 100px;
