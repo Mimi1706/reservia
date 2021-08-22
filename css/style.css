@@ -406,8 +406,9 @@ footer a{
     body{
         margin:40px 0 0 10.4%;
         padding:0;
-        width: 79.5%;
-        overflow-x: hidden;
+        max-width: 79%;
+        zoom:110%;
+        overflow: hidden visible;
     }
 
     /* Header - Phone Version */
@@ -502,17 +503,18 @@ footer a{
     /* All Housings (housings+popular) - Phone Version */
     .all_housings{
         flex-direction: column-reverse;
-        width: 103.5%;
-        margin:0 0 0 -2%;
+        width: 100%;
+        margin:0 0 0 0;
         padding:0;
     }
 
         /* Popular - Phone Version */
         .popular{
             border-radius: 0;
-            width: 100.5%;
-            margin: 0 0 7% -10.5%;
-            padding: 5% 10% 7% 10%;
+            width: 100%;
+            position: relative;
+            margin:0px 13% 40px -13%;
+            padding:20px 13% 40px 13%;
         }
 
             .popular_title{
@@ -552,12 +554,12 @@ footer a{
         .housings{
             background-color: white;
             width: 100%;
-            margin-bottom:20px;
+            margin: 0 0 20px 0;
             padding: 0;
         }
 
         .housings h2{
-            margin: 0 0 7% 0;
+            margin: 0 0 5% 0;
             font-size: 1em;
         }
 
@@ -571,12 +573,12 @@ footer a{
             .housings_allcards{
                 justify-content: space-between;
                 flex-flow: column wrap;
-                margin-bottom: 5px;
-                margin: 0;
+                margin: 0 0 5px 0;
+                padding: 0;
             }
 
                 .housings_card{
-                    width: 100%;
+                    width: 99%;
                     height: 12em;
                     margin-bottom:15px;
                     padding-bottom:10px;
@@ -600,7 +602,7 @@ footer a{
 
     /* Activities - Phone Version */
     #activitiesAnchor{
-        margin:20px 0 15px -5px;
+        margin:20px 0 25px -5px;
         font-size: 1em;
     }
 
