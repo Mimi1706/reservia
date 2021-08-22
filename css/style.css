@@ -129,7 +129,7 @@ nav a{
             background-color: #DEEBFF;
             color:#0065FC;
             margin: -12.5px 20px 0px -50px;
-            padding: 13px 13px 13px 13px;
+            padding: 13.5px;
             justify-content: center;
             position: absolute;
             border-radius: 2em;
@@ -404,10 +404,10 @@ footer a{
 
     /* General - Phone Version */
     body{
-        margin:40px 0 0 10.4%;
+        margin:40px 0 0 5%;
         padding:0;
-        max-width: 79%;
-        zoom:110%;
+        max-width: 90%;
+        zoom:120%;
         overflow: hidden visible;
     }
 
@@ -493,11 +493,12 @@ footer a{
 
             .filters_option{
                 margin: 10px 15px 0px 0px;
-                padding: 11px 15px 10px 40px;
+                padding: 10px 15px 10px 40px;
             }
 
             .filters_icon{
-                margin: -12.5px 20px 0px -45px;
+                margin: -11.5px 20px 0px -42px;
+                padding: 13px 14px;
             }
 
     /* All Housings (housings+popular) - Phone Version */
@@ -513,7 +514,7 @@ footer a{
             border-radius: 0;
             width: 100%;
             position: relative;
-            margin:0px 13% 40px -13%;
+            margin:0px 14% 40px -13%;
             padding:20px 13% 40px 13%;
         }
 
