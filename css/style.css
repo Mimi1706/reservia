@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 /* General */
-
 body{
     font-family: 'Raleway';
     margin:40px 4% 0px 4%;
@@ -171,7 +170,7 @@ nav a{
 
 	.ShowMore{
 		font-weight: 700;
-		font-size: 13px;
+		font-size: 0.9em;
 		padding: 0px 0px 0px 10px;
         text-decoration: none;
         color: inherit;
@@ -329,7 +328,6 @@ nav a{
 	grid-template-rows: repeat(10, 1fr); 
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
-    height: 20em;
 }
 
 	.activities_card{
@@ -406,10 +404,12 @@ footer a{
 
     /* General - Phone Version */
     body{
-        margin-right: 9%;
-        margin-left: 9%;
-        zoom: 80%;
+        margin:40px 0 0 10.4%;
+        padding:0;
+        width: 79.5%;
+        overflow-x: hidden;
     }
+
     /* Header - Phone Version */
     .logo{
         width: 100px;
@@ -456,11 +456,6 @@ footer a{
         top:45px;
         padding-right: 25px;
     }
-    
-    /* Search - Phone Version */
-    body{
-        overflow-x: hidden;
-    }
 
         /* Search bar - Phone Version */
         .search_bar{
@@ -506,72 +501,85 @@ footer a{
 
     /* All Housings (housings+popular) - Phone Version */
     .all_housings{
-        margin:0px -2px 0px -40px;
         flex-direction: column-reverse;
+        width: 103.5%;
+        margin:0 0 0 -2%;
+        padding:0;
     }
 
         /* Popular - Phone Version */
         .popular{
             border-radius: 0;
-            width: 100%;
-            margin-bottom:10px;
-            padding: 10px 20px 40px 20px;
+            width: 100.5%;
+            margin: 0 0 7% -10.5%;
+            padding: 5% 10% 7% 10%;
         }
 
             .popular_title{
-                padding: 0 20px 0 20px;
+                padding: 0;
+                font-size: 1em;
+                margin-bottom: 2%;
             }
 
+                .popular_title h2{
+                    font-size: 1em;
+                }
+
             .popular_allcards{
-                margin-top:10px;
+                margin: 0;
+                padding: 0;
             }
 
             .popular_card{
 			    padding: 5px;
-			    margin: 10px 15px 0px 15px;
                 height: 8em;
+                margin-bottom: 12px;
 		    }
 
                 .popular_card_description h3{
-                    font-size: 0.8em;
+                    font-size: 0.9em;
                 }
     
                 .popular_card_description p{
-                    font-size: 0.6em;
+                    font-size: 0.7em;
                 }
     
                 .stars_popular{
-                    font-size: 0.5em;
+                    font-size: 0.6em;
                 }
 
         /* Housings - Phone Version */
         .housings{
             background-color: white;
             width: 100%;
-            margin-bottom:10px;
-            padding: 10px 15px 20px 15px;
+            margin-bottom:20px;
+            padding: 0;
         }
 
         .housings h2{
-            margin: 10px 0 25px 20px;
+            margin: 0 0 7% 0;
+            font-size: 1em;
         }
 
         .ShowMore{
-            padding:0;
-            margin-left:25px;
+            font-size: 0.9em;
+            color: rgb(78, 78, 78);
+            padding: 0;
+            margin-top:20px;
         }
 
             .housings_allcards{
                 justify-content: space-between;
                 flex-flow: column wrap;
                 margin-bottom: 5px;
-                margin: 30px 20px 10px 20px;
+                margin: 0;
             }
 
                 .housings_card{
                     width: 100%;
                     height: 12em;
                     margin-bottom:15px;
+                    padding-bottom:10px;
                 }
 
                 .housings_card_img{
@@ -579,16 +587,21 @@ footer a{
                 }
 
                     .housings_card_description h3{
-                        font-size: 0.75em;
+                        font-size: 0.9em;
                     }
 
                     .housings_card_description p{
-                        font-size: 0.65em;
+                        font-size: 0.8em;
+                    }
+
+                    .stars{
+                        font-size: 0.6em;
                     }
 
     /* Activities - Phone Version */
     #activitiesAnchor{
-        margin-left:-5px;
+        margin:20px 0 15px -5px;
+        font-size: 1em;
     }
 
     .activities_cards{
@@ -608,7 +621,6 @@ footer a{
         }
         
         .activities_cards h3{
-            font-size: 9px;
             font-weight: 600;
             margin: 10px 0 0 10px;
             padding: 0;
@@ -640,8 +652,10 @@ footer a{
 
     /* Footer */
     footer{
-        margin:1000px -11% 0 -11%;
         flex-direction: column;
+        position: relative;
+        margin:0px -13% 0px -13%;
+        padding:20px 50px 20px 13%;
     }
 
     footer h3{
@@ -654,9 +668,9 @@ footer a{
 @media (min-width: 700px) and (max-width: 1000px){
     
     body{
+        margin:40px 0 0px 5.9%;
         zoom:100%;
-        width:88%;
-        margin:40px 0px 0px 45px;
+        width: 88%;
     }
 
     /* Header - Tablet Version */
@@ -729,22 +743,28 @@ footer a{
     /* All Housings (housings+popular) - Tablet Version */
     .all_housings{
         flex-direction: column-reverse;
+        margin-bottom: 4%;
     }
 
     /* Popular - Tablet Version */
     .popular{
         border-radius: 1em;
         width: 100%;
-        margin-bottom:10px;
+        margin: 0 0 10px 0;
         padding: 10px 0px 20px 0px;
     }
 
     .popular_title{
         padding: 0 25px 0 25px;
+        font-size:1em;
     }
 
+        .popular_title h2{
+            font-size: 1em;
+        }
+
     .popular_allcards{
-        margin-top:10px;
+        margin-top:0px;
     }
 
         .popular_card{
@@ -767,8 +787,13 @@ footer a{
     /* Housings - Tablet Version */
     .housings{
         background-color: white;
-        width: 92%;
-        margin-bottom:-20px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .housings h2{
+        font-size: 1em;
     }
 
     .housings_allcards{
@@ -782,14 +807,24 @@ footer a{
         .housings_card_description p{
             font-size: 0.7em;
         }
+
+    .ShowMore{
+        font-size: 0.8em;
+    }
     
     /* Activities - Tablet Version */
+    .Activities{
+        margin-bottom: 120px;
+    }
+    
     #activitiesAnchor{
-        margin:0 0 30px 25px;
+        margin:0 0 5% 0;
+        font-size: 1em;
     }
 
     .activities_cards{
-        margin:0px 25px 100px 25px;
+        width: 100%;
+        margin:0;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: repeat(2, 1fr); 
@@ -803,9 +838,9 @@ footer a{
         width: auto;
         border-radius: 1em;
         box-shadow: 1px 1px 10px lightgrey;
-        padding-bottom:5px;
         margin-bottom:15px;
         font-size: 14px;
+        border: 5px solid white;
         }
         
         .activities_cards h3{
@@ -813,6 +848,7 @@ footer a{
             margin: 5px 0 0 10px;
             padding: 0;
             color: black;
+            font-size: 0.8em;
         }
     
         .activities_card_img_l{
@@ -825,10 +861,6 @@ footer a{
     
         .activities_card_img_xs{
             height: 80%;
-        }
-
-        .activities_cards h3{
-            font-size: 0.7em;
         }
 
         .card1 { grid-area: 1 / 1 / 2 / 2; } 
