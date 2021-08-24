@@ -217,24 +217,24 @@ nav a{
             .housings_card_description{
                 padding:5px 0px 5px 10px;
                 flex-direction: column;
-                margin: 0px;
+                margin: 0;
             }
 
                 .housings_card_description h3{
-                    font-size: 0.65em;
+                    font-size: 0.7em;
                     margin: 0px;
 					font-weight: 600;
                 }
 
                 .housings_card_description p{
-                    font-size: 0.6em;
+                    font-size: 0.65em;
                     margin: 3px 0px 0px 0px;
                     font-weight: 100;
                 }
 
                 .stars{
                     padding:0px 0px 5px 10px;
-                    font-size: 0.5em;
+                    font-size: 0.55em;
                     margin: 0px;
                     color: #0065FC;
                 }
@@ -283,7 +283,7 @@ nav a{
 
 		.popular_card img{
 			border-radius: 0.8em 0em 0em 0.8em;
-			width: 6em;
+			width: 7em;
 			object-fit: cover;
 		}
 
@@ -295,19 +295,19 @@ nav a{
 		}
 
 			.popular_card_description h3{
-				font-size: 0.65em;
+				font-size: 0.75em;
 				font-weight: 600;
 				margin: 0px;
 			}
 
 			.popular_card_description p{
-				font-size: 0.6em;
+				font-size: 0.65em;
 				font-weight: 100;
 				margin: 5px 0 0 0;
 			}
 
 			.stars_popular{
-				font-size: 0.5em;
+				font-size: 0.55em;
 				color: #0065FC;
 				letter-spacing: 2px;
 			}
