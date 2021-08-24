@@ -426,9 +426,9 @@ footer a{
 
     /* General - Phone Version */
     body{
-        margin:40px 0 0 10.4%;
+        margin:40px 0 0 6%;
         padding:0;
-        max-width: 79%;
+        max-width: 78%;
         zoom:110%;
         overflow: hidden visible;
     }
@@ -449,6 +449,7 @@ footer a{
         list-style-type: none;
         flex-direction: column;
         margin: 0 -30px;
+        width: 130%;
     }
 
     nav li{
@@ -481,6 +482,10 @@ footer a{
     }
 
         /* Search bar - Phone Version */
+        .search{
+            width: 115%;
+        }
+        
         .search_bar{
             width: 100%;
             margin-top:30px;
@@ -533,10 +538,10 @@ footer a{
         /* Popular - Phone Version */
         .popular{
             border-radius: 0;
-            width: 100%;
+            width: 110%;
             position: relative;
-            margin:0px 13% 40px -13%;
-            padding:20px 13% 40px 13%;
+            margin:0px 0 40px -7.5%;
+            padding:20px 10% 40px 8%;
         }
 
             .popular_title{
@@ -552,6 +557,7 @@ footer a{
             .popular_allcards{
                 margin: 0;
                 padding: 0;
+                width: 101%;
             }
 
             .popular_card{
@@ -575,7 +581,7 @@ footer a{
         /* Housings - Phone Version */
         .housings{
             background-color: white;
-            width: 100%;
+            width: 112%;
             margin: 0 0 20px 0;
             padding: 0;
         }
@@ -624,17 +630,18 @@ footer a{
 
     /* Activities - Phone Version */
     #activitiesAnchor{
-        margin:20px 0 25px -5px;
+        margin:20px 0 25px 0;
         font-size: 1em;
     }
 
     .activities_cards{
-        margin:0px -15px 0px -15px;
+        margin:0px -15px 0px -5px;
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: repeat(6, 1fr); 
         grid-row-gap: 15px;   
         height: auto; 
+        width: 117%;
     }
 
     .activities_card{
@@ -679,8 +686,9 @@ footer a{
     footer{
         flex-direction: column;
         position: relative;
-        margin:0px -13% 0px -13%;
-        padding:20px 50px 20px 13%;
+        margin:0px 0 0px -13%;
+        padding:20px 0 20px 14.5%;
+        width: 119%;
     }
 
     footer h3{
