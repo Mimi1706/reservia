@@ -445,7 +445,6 @@ footer a{
     
     nav {
         color:#0065FC;
-        font-size: 13px;
         list-style-type: none;
         flex-direction: column;
         margin: 0 -30px;
@@ -465,12 +464,14 @@ footer a{
         .a1{
             padding:0;
             justify-content: center;
+            font-size: 1em;
         }
 
         .a2{
             color:grey;
             padding:0;
             justify-content: center;
+            font-size: 1em;
         }
 
     .a3{
@@ -479,6 +480,7 @@ footer a{
         position:absolute;
         top:45px;
         padding-right: 25px;
+        font-size: 1em;
     }
 
         /* Search bar - Phone Version */
@@ -557,7 +559,7 @@ footer a{
             .popular_allcards{
                 margin: 0;
                 padding: 0;
-                width: 101%;
+                width: 101.5%;
             }
 
             .popular_card{
@@ -565,6 +567,10 @@ footer a{
                 height: 8em;
                 margin-bottom: 12px;
 		    }
+
+            .popular_card img{
+                width: 9.5em;
+            }
 
                 .popular_card_description h3{
                     font-size: 0.9em;
