@@ -513,11 +513,18 @@ footer a{
         /* Filters - Phone Version */
         .filters{
          flex-direction: column;
+         width: 100%;
+        }
+
+        .filters_text{
+            font-size: 1.1em;
         }
 
         .filters_list{
             flex-wrap: wrap;
             width: 100%;
+            font-size: 1.1em;
+            font-weight: 700;
         }
 
             .filters_option{
@@ -574,6 +581,7 @@ footer a{
 
                 .popular_card_description h3{
                     font-size: 0.9em;
+                    font-weight: 700;
                 }
     
                 .popular_card_description p{
@@ -624,6 +632,7 @@ footer a{
 
                     .housings_card_description h3{
                         font-size: 0.9em;
+                        font-weight: 700;
                     }
 
                     .housings_card_description p{
@@ -659,10 +668,11 @@ footer a{
         }
         
         .activities_cards h3{
-            font-weight: 600;
+            font-weight: 650;
             margin: 10px 0 0 10px;
             padding: 0;
             color: black;
+            font-size: 0.85em;
         }
     
         .activities_card_img_l{
@@ -683,10 +693,6 @@ footer a{
         .card4 { grid-area: 4 / 1 / 5 / 2; } 
         .card5 { grid-area: 5 / 1 / 6 / 2; } 
         .card6 { grid-area: 6 / 1 / 7 / 2; } 
-
-        .activities_cards h3{
-            font-size: 0.75em;
-        }
 
     /* Footer */
     footer{
