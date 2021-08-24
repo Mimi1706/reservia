@@ -525,7 +525,6 @@ footer a{
             flex-wrap: wrap;
             width: 100%;
             font-size: 1.1em;
-            font-weight: 700;
         }
 
             .filters_option{
@@ -784,6 +783,7 @@ footer a{
     .filters_list{
         flex-wrap: wrap;
         width: 100%;
+        font-size: 1.1em;
     }
 
     /* All Housings (housings+popular) - Tablet Version */
