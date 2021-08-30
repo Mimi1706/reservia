@@ -6,7 +6,6 @@
 body{
     font-family: 'Raleway';
     margin:40px 4% 0px 4%;
-    zoom:125%;
     overflow-x: hidden;
 }
 
@@ -15,7 +14,6 @@ body{
 }
 
 /* Header */
-
 .logo{
     width: 100px;
 }
@@ -120,7 +118,6 @@ nav a{
         }
 
         .filters_option:hover{
-            border-color:#0065FC;
             background-color: #0065FC;
             color: white;
         }
@@ -430,7 +427,6 @@ footer a{
         margin:40px 0 0 6%;
         padding:0;
         max-width: 78%;
-        zoom:110%;
         overflow: hidden visible;
     }
 
@@ -668,7 +664,7 @@ footer a{
         }
         
         .activities_cards h3{
-            font-weight: 650;
+            font-weight: 700;
             margin: 10px 0 0 10px;
             padding: 0;
             color: black;
@@ -714,7 +710,6 @@ footer a{
     
     body{
         margin:40px 0 0px 5.9%;
-        zoom:100%;
         width: 88%;
     }
 
