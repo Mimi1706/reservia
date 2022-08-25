@@ -1,7 +1,9 @@
 # HanNguyen_2_25072021
 **[Openclassrooms] Projet 2 - Intégrer la maquette Reservia**
 
-Dans le cadre de la [formation de Développeur Front-end](https://openclassrooms.com/fr/paths/314-developpeur-front-end) d'Openclassrooms, ce projet est une première introduction à l'HTML et au CSS. Le design est reponsive à tous les appareils et testé avec les navigateurs Safari, Chrome et Firefox. 
+Dans le cadre de la [formation de Développeur Front-end](https://openclassrooms.com/fr/paths/314-developpeur-front-end) d'Openclassrooms, ce projet est une première introduction à l'HTML et au CSS avec pour but de se familiariser avec l'utilisation de *flexbox* et des *grid*. 
+
+Le design est reponsive à tous les appareils et testé avec les navigateurs Safari, Chrome et Firefox.
 
 ## Reservia
 
