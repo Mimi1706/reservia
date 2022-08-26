@@ -9,4 +9,4 @@ Le design est reponsive à tous les appareils et testé avec les navigateurs Saf
 
 Reservia est un outil de planification de vacances. Son site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
-![maquette Reservia](https://github.com/Mimi1706/HanNguyen_2_25072021/blob/29af361663fc84c00a5c7790c552909584ef5617/Maquette-Reservia.png?raw=true)
+![maquette Reservia](https://github.com/Mimi1706/HanNguyen_2_25072021/blob/main/Reservia%20visuals.jpg?raw=true)
