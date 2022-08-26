@@ -1,3 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
 # HanNguyen_2_25072021
 **[Openclassrooms] Projet 2 - Transformer une maquette en site web avec HTML & CSS**
 
